@@ -8,17 +8,9 @@ You can enter your own list of numbers, choose an algorithm, and watch the array
 
 ## Demo Video
 
-### YouTube (recommended for GitHub README)
-Replace `YOUTUBE_VIDEO_ID` with your actual YouTube video ID:
+Click below to watch the demo video you added to this repository:
 
-[![Watch the demo](assets/Screen Recording 2026-04-25 220604.mp4)
-
-This gives you a clean clickable preview image directly in the README.
-
-### Optional: Local/Hosted MP4
-If you also host an MP4, you can keep a direct link:
-
-[Download or watch MP4 demo](YOUR_MP4_URL)
+[▶ Watch Demo Video (MP4)](assets/Screen%20Recording%202026-04-25%20220604.mp4)
 
 ## Preview
 
