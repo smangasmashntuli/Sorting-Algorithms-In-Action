@@ -28,6 +28,8 @@
                     <span><i class="swatch" style="background: var(--good);"></i>Swapped</span>
                     <span><i class="swatch" style="background: var(--accent-2);"></i>Pivot</span>
                     <span><i class="swatch" style="background: var(--accent);"></i>Sorted</span>
+                    <span><i class="swatch" style="background: rgba(56, 189, 248, 0.5);"></i>Pointer i</span>
+                    <span><i class="swatch" style="background: rgba(245, 158, 11, 0.5);"></i>Pointer j</span>
                 </div>
             </div>
 
@@ -65,6 +67,23 @@
     <div class="card">
         <h2>Sorting steps</h2>
         <p class="subtitle">Each card below shows one important state of the array while the algorithm runs.</p>
+        <div class="player-controls" id="playerControls">
+            <button class="action-btn primary" id="playBtn">Play</button>
+            <button class="action-btn secondary" id="pauseBtn">Pause</button>
+            <button class="action-btn ghost" id="prevBtn">Prev</button>
+            <button class="action-btn ghost" id="nextBtn">Next</button>
+            <button class="action-btn ghost" id="restartBtn">Restart</button>
+            <div class="speed-wrap">
+                <label for="speedSelect" style="margin: 0; font-weight: 600;">Speed</label>
+                <select id="speedSelect">
+                    <option value="1200">0.5x</option>
+                    <option value="700" selected>1x</option>
+                    <option value="350">2x</option>
+                    <option value="200">3x</option>
+                </select>
+            </div>
+        </div>
+        <div class="step-progress" id="stepProgress">Step 0 of 0</div>
         <div class="steps" id="steps"></div>
     </div>
 </div>

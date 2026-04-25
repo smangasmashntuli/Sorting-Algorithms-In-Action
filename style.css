@@ -108,6 +108,41 @@ textarea {
     margin-top: 16px;
 }
 
+.player-controls {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    margin: 12px 0 6px;
+}
+
+.player-controls .action-btn {
+    padding: 8px 12px;
+    font-size: 0.92rem;
+}
+
+.speed-wrap {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-left: auto;
+    color: var(--muted);
+    font-size: 0.9rem;
+}
+
+.speed-wrap select {
+    width: auto;
+    min-width: 90px;
+    padding: 8px;
+    font-size: 0.92rem;
+}
+
+.step-progress {
+    color: var(--muted);
+    font-size: 0.9rem;
+    margin-bottom: 12px;
+}
+
 button.action-btn {
     border: none;
     border-radius: 10px;
@@ -165,6 +200,7 @@ button.action-btn {
     font-size: 1.35rem;
     font-weight: 800;
     margin-top: 4px;
+    margin-bottom: 4px;
     color: #f8fafc;
 }
 
@@ -199,6 +235,35 @@ button.action-btn {
     color: var(--muted);
 }
 
+.pointer-wrap {
+    position: absolute;
+    top: -24px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline-flex;
+    gap: 4px;
+    z-index: 2;
+}
+
+.pointer-badge {
+    font-size: 0.68rem;
+    font-weight: 700;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    padding: 1px 6px;
+    background: #111827;
+    color: #e5e7eb;
+    line-height: 1.1;
+}
+
+.pointer-i {
+    background: rgba(56, 189, 248, 0.2);
+}
+
+.pointer-j {
+    background: rgba(245, 158, 11, 0.2);
+}
+
 .box-compared {
     outline: 3px solid var(--warn);
 }
@@ -221,6 +286,19 @@ button.action-btn {
 .box-key {
     background: rgba(245, 158, 11, 0.16);
     outline: 3px solid var(--warn);
+}
+
+.box-left-range {
+    background: rgba(34, 197, 94, 0.12);
+}
+
+.box-right-range {
+    background: rgba(59, 130, 246, 0.12);
+}
+
+.box-outside-range {
+    opacity: 0.35;
+    filter: saturate(0.5);
 }
 
 .steps {
@@ -249,6 +327,27 @@ button.action-btn {
 
 .hidden {
     display: none !important;
+}
+
+.step-card .result-box {
+    margin-top: 24px;
+    padding-top: 6px;
+}
+
+.subarray-info {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.range-badge {
+    background: #0b1220;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    padding: 4px 10px;
+    color: var(--muted);
+    font-size: 0.82rem;
 }
 
 .legend {
