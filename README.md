@@ -11,7 +11,7 @@ You can enter your own list of numbers, choose an algorithm, and watch the array
 ### YouTube (recommended for GitHub README)
 Replace `YOUTUBE_VIDEO_ID` with your actual YouTube video ID:
 
-[![Watch the demo](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID/maxresdefault.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID)
+[![Watch the demo](assets/Screen Recording 2026-04-25 220604.mp4)
 
 This gives you a clean clickable preview image directly in the README.
 
