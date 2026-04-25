@@ -19,12 +19,8 @@ You can enter your own list of numbers, choose an algorithm, and watch the array
 ### App Screenshot
 Save your screenshot at `assets/screenshot-main.png` and it will render here:
 
-![Sorting app screenshot](assets/screenshot-main.png)
+<img width="557" height="513" alt="image" src="https://github.com/user-attachments/assets/82645de7-376e-4736-85bf-9afbfb3f6bcf" />
 
-### Demo GIF
-Save your GIF at `assets/demo.gif` and it will render here:
-
-![Sorting demo gif](assets/demo.gif)
 
 ---
 
