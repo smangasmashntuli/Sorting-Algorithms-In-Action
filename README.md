@@ -12,6 +12,11 @@ You can enter your own list of numbers, choose an algorithm, and watch the array
   Your browser does not support the video tag.
 </video>
 
+
+https://github.com/user-attachments/assets/7d1a2f5c-d78c-4499-af87-746da9f460fa
+
+
+
 [▶ Open Demo Video directly](assets/Screen%20Recording%202026-04-25%20220604.mp4)
 
 ## Preview
