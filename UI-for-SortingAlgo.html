@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Algorithms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+    <h1>Sorting Algorithms in Action</h1>
+    <p class="subtitle">Choose an algorithm, enter numbers separated by commas or spaces, and the page will show every sorting step in boxes.</p>
+
+    <div class="tabs" id="tabs">
+        <button class="tab-btn active" data-algorithm="bubble">Bubble Sort</button>
+        <button class="tab-btn" data-algorithm="selection">Selection Sort</button>
+        <button class="tab-btn" data-algorithm="insertion">Insertion Sort</button>
+        <button class="tab-btn" data-algorithm="quick">Quick Sort</button>
+    </div>
+
+    <div class="card">
+        <div class="controls-grid">
+            <div>
+                <label for="numbersInput">Enter numbers</label>
+                <textarea id="numbersInput" placeholder="Example: 5, 2, 9, 1, 3">5, 2, 9, 1, 3</textarea>
+                <div class="legend">
+                    <span><i class="swatch" style="background: var(--warn);"></i>Compared / key</span>
+                    <span><i class="swatch" style="background: var(--good);"></i>Swapped</span>
+                    <span><i class="swatch" style="background: var(--accent-2);"></i>Pivot</span>
+                    <span><i class="swatch" style="background: var(--accent);"></i>Sorted</span>
+                </div>
+            </div>
+
+            <div id="quickOptions" class="hidden">
+                <label for="pivotStrategy">Quick sort pivot strategy</label>
+                <select id="pivotStrategy">
+                    <option value="start">Start</option>
+                    <option value="middle" selected>Middle</option>
+                    <option value="last">Last</option>
+                    <option value="random">Random</option>
+                </select>
+                <p class="subtitle" style="margin-top: 10px;">This option only matters when Quick Sort is active.</p>
+            </div>
+        </div>
+
+        <div class="actions">
+            <button class="action-btn primary" id="sortBtn">Sort</button>
+            <button class="action-btn secondary" id="resetBtn">Reset</button>
+            <button class="action-btn ghost" id="sampleBtn">Load sample</button>
+        </div>
+
+        <div id="message" class="status">Pick an algorithm and click Sort to see the steps.</div>
+
+        <div class="stats" id="stats">
+            <div class="stat"><span>Algorithm</span><span class="value" id="statAlgorithm">Bubble Sort</span></div>
+            <div class="stat"><span>Steps</span><span class="value" id="statSteps">0</span></div>
+            <div class="stat"><span>Time</span><span class="value" id="statTime">0.00 ms</span></div>
+            <div class="stat"><span>Array length</span><span class="value" id="statLength">0</span></div>
+        </div>
+
+        <h2 style="margin-top: 20px;">Final result</h2>
+        <div class="result-box" id="resultBox"></div>
+    </div>
+
+    <div class="card">
+        <h2>Sorting steps</h2>
+        <p class="subtitle">Each card below shows one important state of the array while the algorithm runs.</p>
+        <div class="steps" id="steps"></div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
