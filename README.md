@@ -8,9 +8,11 @@ You can enter your own list of numbers, choose an algorithm, and watch the array
 
 ## Demo Video
 
-Click below to watch the demo video you added to this repository:
+<video src="assets/Screen%20Recording%202026-04-25%20220604.mp4" controls playsinline width="100%">
+  Your browser does not support the video tag.
+</video>
 
-[▶ Watch Demo Video (MP4)](assets/Screen%20Recording%202026-04-25%20220604.mp4)
+[▶ Open Demo Video directly](assets/Screen%20Recording%202026-04-25%20220604.mp4)
 
 ## Preview
 
